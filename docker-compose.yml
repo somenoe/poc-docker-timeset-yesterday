@@ -5,5 +5,4 @@ services:
       dockerfile: Dockerfile
     image: poc-timeset
     environment:
-      - LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
       - FAKETIME=-1d
